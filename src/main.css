@@ -1,0 +1,135 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background-image: linear-gradient(to bottom, #081221, #03080f);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0px;
+  color: #ffffff;
+}
+p {
+  margin: 0px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.heading,
+.labels,
+.buttons {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+.panel {
+  background: #0e1a2b;
+}
+.text {
+  color: #c1d1e8;
+  font-family: "Montserrat", sans-serif;
+}
+input,
+select,
+textarea {
+  background: #182c47;
+}
+textarea {
+  max-width: 100%;
+  color: #c1d1e8;
+  padding: 10px 20px;
+  border: none;
+  box-sizing: border-box;
+}
+textarea:active,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+.buttons {
+  background-color: #5692e8;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+button {
+  outline: none;
+  border: none;
+  background: #5692e8;
+  color: #c1d1e8;
+  padding: 9px 20px;
+  cursor: pointer;
+}
+button:active {
+  opacity: 0.8;
+}
+.app-wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+.input-box {
+  width: 100%;
+}
+input {
+  outline: none;
+  border: none;
+  color: #c1d1e8;
+  padding: 8px;
+  padding-left: 16px;
+}
+.select {
+  width: 100%;
+  position: relative;
+}
+.select-value {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background: #182c47;
+  cursor: pointer;
+}
+.select-input {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+  background: #182c47;
+}
+.select-input:hover {
+  background: #182c47aa;
+}
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+input {
+  width: calc(100% - 24px);
+}
+select {
+  width: 100%;
+}
+.label {
+  padding-bottom: 4px;
+  width: 100%;
+  font-size: 14px;
+}
+.sort {
+  height: 33px;
+  width: 33px;
+  display: flex;
+  background: #5692e8;
+  align-items: center;
+}
+.sort > p {
+  margin: auto;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.textarea {
+  width: 100%;
+}

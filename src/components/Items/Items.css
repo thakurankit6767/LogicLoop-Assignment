@@ -1,0 +1,135 @@
+.game-main-div {
+  display: block;
+  position: relative;
+  align-items: center;
+  background: #0e1a2b;
+  margin-bottom: 20px;
+  height: 350px;
+}
+.item-name {
+  color: #ffffff;
+}
+.item-img {
+  overflow: hidden;
+  height: 150px;
+  width: 100%;
+  background: black;
+}
+.item-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.item-date {
+  font-size: 13px;
+  margin-top: 5px;
+  color: #c1d1e8;
+}
+.item-body {
+  padding: 20px;
+  padding-top: 10px;
+  height: 165px;
+  overflow: hidden;
+}
+.item-summary {
+  margin-top: 15px;
+  color: #c1d1e8;
+  font-size: 13px;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.item-rating {
+  position: absolute;
+  right: 20px;
+}
+.item-rating > div {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #568de5;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  bottom: 320px;
+  z-index: 999;
+}
+
+/* Tablet */
+@media screen and (min-width: 640px) {
+  .game-main-div {
+    display: flex;
+    height: 150px;
+  }
+  .item-name {
+    color: #ffffff;
+  }
+  .item-img {
+    min-width: 150px;
+    max-width: 150px;
+  }
+  .item-rating {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  .item-rating > div {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #568de5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    top: 0px;
+  }
+  .item-name {
+    margin-top: 0px;
+  }
+  .item-body {
+    height: 108px;
+    width: 100%;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+  .item-rating {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  .item-name {
+    color: #ffffff;
+  }
+  .item-rating > div {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #568de5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
